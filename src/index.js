@@ -1,7 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM  from "react-dom";
+import App from "./App";
 
-const greeting = <div>Hello React</div>
+
 const rootNode = document.getElementById('root')
-
-ReactDOM.render(greeting, rootNode)
+ReactDOM.render(<App />, rootNode)
